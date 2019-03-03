@@ -8,3 +8,8 @@ A simulated environment like the linux terminal, which allows you to use the ffm
 Also, Play Video, Make Folder, Set Output Folder and some options is now included to script.
 
 <img src="https://github.com/Pedroxam/ffmpeg_terminal_script/blob/master/screencapture-localhost-terminal3-2019-03-04-00_26_50.png">
+
+
+Just Extract On Your Server And Run it.
+
+Make Sure latest ffmpeg installed on your server.
