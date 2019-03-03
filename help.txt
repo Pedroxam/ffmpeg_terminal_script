@@ -1,0 +1,5 @@
+ffmpeg -i ./store/000.ts -ss 00:00:00 -t 00:01:58 -async 1 ./store/new.mp4
+
+
+
+ffmpeg -i input.avi -s 720x480 -c:a copy output.mkv

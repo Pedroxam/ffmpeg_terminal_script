@@ -1,0 +1,1 @@
+on the windows operating systems, download ffmpeg.exe from offical ffmpeg site and put in here.
