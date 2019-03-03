@@ -1,4 +1,11 @@
 <?php
+/*
+ * FFmpeg Terminal Command Excutables
+ * @Author: Pedram Asbaghi
+ * @Email: Pedroxam@gmail.com
+ * @Date: 03/2019
+*/
+
 include 'config.php';
 
 if(isset($_POST['log'])) {
