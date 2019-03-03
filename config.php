@@ -1,33 +1,31 @@
 <?php
-/*========================================
-	## FFmpeg Terminal Config ##
-========================================*/
+/*
+ * FFmpeg Terminal Config
+ * @Author: Pedram Asbaghi
+ * @Email: Pedroxam@gmail.com
+ * @Date: 03/2019
+*/
 
 //Disable Errors
-// error_reporting(0);
-error_reporting(E_ALL);
+error_reporting(0);
+
+//No Limit Time
 set_time_limit(0);
 
-//Enter Username Here
-$username = 'admin';
-
-//Enter Password Here
-$password = 'admin';
-
-//Store Files Path
+//Output Files Path
 $store = 'store/';
 
 //Log Path
 $log = './log.txt';
 
-//FFmpeg Path 
+//FFmpeg Installation Path
 if (substr(php_uname(), 0, 7) == "Windows")
 {
-	 //windows ( no need to change )
+	 //windows ( make sure this file is exists)
 	$ffmpeg  = dirname( __FILE__ ) . '/ext/ffmpeg.exe';
 }
 else {
-	 //linux ( If the conversion operation did not work, edit this path )
+	 //linux ( mke sure this path is true)
 	$ffmpeg  = '/usr/bin/ffmpeg';
 }
 
@@ -39,9 +37,7 @@ $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 $url = str_replace('index.php','',$url);
 
 define('URL', $url);
-define('USERNAME', $username);
-define('PASSWORD', $password);
+define('LOG_PATH', $log);
 define('FFMPEG_PATH', $ffmpeg);
 define('STORE_PATH', $store);
-define('LOG_PATH', $log);
-define('AccessVD', true);
+define('FFmepgTerminal', true);
