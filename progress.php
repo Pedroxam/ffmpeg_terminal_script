@@ -1,5 +1,10 @@
 <?php
-
+/*
+ * FFmpeg Terminal Progress
+ * @Author: Pedram Asbaghi
+ * @Email: Pedroxam@gmail.com
+ * @Date: 03/2019
+*/
 require 'config.php';
 
 $currentLog = LOG_PATH;
