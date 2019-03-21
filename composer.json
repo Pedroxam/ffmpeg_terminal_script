@@ -1,5 +1,6 @@
 {
     "require": {
+        "name": "ffmpeg_terminal_script",
         "php": ">=5.3.0"
     },
     "require-dev": {
